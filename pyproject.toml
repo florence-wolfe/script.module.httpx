@@ -1,0 +1,16 @@
+[project]
+name = "script-module-httpx"
+version = "0.1.0"
+description = "A next generation HTTP client for Python. 🦋"
+authors = [
+    { name = "Florence Wolfe", email = "florencewolfe@pm.me" }
+]
+dependencies = [
+    "httpx>=0.27.0",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
